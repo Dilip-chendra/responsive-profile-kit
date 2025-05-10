@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+🌐 Personal Portfolio Web Application (Python + Flask)
 
-## Project info
+This is a responsive and customizable personal portfolio website built using Python and the Flask web framework. It showcases skills, projects, experience, and contact information in a clean and professional layout.
 
-**URL**: https://lovable.dev/projects/d0b36370-b0cf-4681-9ec3-cb75c18ad68d
+🚀 Features
 
-## How can I edit this code?
+Home page with a brief introduction
 
-There are several ways of editing your application.
+About section with personal details
 
-**Use Lovable**
+Skills section displaying technical competencies
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d0b36370-b0cf-4681-9ec3-cb75c18ad68d) and start prompting.
+Projects gallery with images, links, and descriptions
 
-Changes made via Lovable will be committed automatically to this repo.
+Contact form that can send messages (via email or save to DB)
 
-**Use your preferred IDE**
+Fully responsive design for mobile and desktop
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Customizable with your own content and styling
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🛠️ Technologies Used
 
-Follow these steps:
+Python
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Flask
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+HTML5
 
-# Step 3: Install the necessary dependencies.
-npm i
+CSS3
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+JavaScript (optional for interactivity)
 
-**Edit a file directly in GitHub**
+Bootstrap
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📂 Project Structure
+portfolio-app/
+├── static/ # CSS, JS, Images
+│ └── styles.css
+├── templates/ # HTML Templates
+│ ├── index.html
+│ ├── about.html
+│ ├── projects.html
+│ ├── contact.html
+│ └── layout.html
+├── app.py # Flask application
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
-**Use GitHub Codespaces**
+📦 Installation & Setup
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Clone the repository:
+git clone (https://github.com/Dilip-chendra/responsive-profile-kit.git)
+cd portfolio-app
 
-## What technologies are used for this project?
+Create a virtual environment (optional but recommended):
+python -m venv venv
+source venv/bin/activate (On Windows: venv\Scripts\activate)
 
-This project is built with:
+Install dependencies:
+pip install -r requirements.txt
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Run the Flask app:
+python app.py
 
-## How can I deploy this project?
+Open your browser and go to:
+http://127.0.0.1:5000
 
-Simply open [Lovable](https://lovable.dev/projects/d0b36370-b0cf-4681-9ec3-cb75c18ad68d) and click on Share -> Publish.
+✍️ Customization
 
-## Can I connect a custom domain to my Lovable project?
+Replace content in the templates folder with your personal info.
 
-Yes, you can!
+Add your own styles in static/styles.css.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Update the project cards and contact form logic in app.py.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📬 Contributing
+Feel free to fork this repository and customize it for your own use. Pull requests are welcome!
+
+📝 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Built with ❤️ using Python and Flask.
